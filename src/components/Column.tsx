@@ -3,7 +3,7 @@ import { MotionValue } from "framer-motion";
 
 type TColumnProps = {
   images: string[];
-  y: MotionValue<number>;
+  y: MotionValue<number> | MotionValue<string>;
   className?: string;
 };
 
